@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html"; charset="utf-8" />
+		<meta name="viewport"   content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>待办事件列表</title>
+		<link rel="stylesheet" href="./css/index.css" />
+	</head>
+	<body>
+		<header>
+			<section>
+				<form action="javascript:;" id="form">
+				<label for="title">ToDolist</label>	
+			<input type="text" id="title" name="title" placeholder="添加ToDo" />		
+				</form>
+			</section>
+		</header>
+		<section>
+			<h2>正在进行 <span id="todocount"></span></h2>
+			<ul id="todolist"></ul>
+			<!-- <ol id="todolist" class="demo-box"></ol> -->
+			<h2>已经完成 <span id="donecount"></span></h2>
+			<ul id="donelist"></ul>
+			
+		</section>
+		<footer>
+			小韩todolist<a href="javascript:;"> clear</a>
+		</footer>
+		<script type="text/javascript" src="./jquery-3.5.1.js"></script>
+		<script type="text/javascript" src="./js/index.js"></script>
+		
+	</body>
+</html>
